@@ -9,6 +9,14 @@ int recursiveCount(int n){
     ctt++;
     return recursiveCount(n/10);
 }
+
+
+
+// int numOfDigits(int n){
+// return floor(log(10*n)+1)    
+// }
+
+
 int main()
 {
     int n;
